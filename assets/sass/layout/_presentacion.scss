@@ -1,0 +1,30 @@
+.presentacion{
+  border-bottom: 1px solid $platinum;
+}
+
+.presentacion__item{
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.presentacion__nombre{
+  font-size: $medium;
+  font-weight: $bold;
+}
+
+.presentacion__subtitle{
+  font-size: $small;
+  color: $gray;
+  font-weight: $regular;
+}
+
+@media only screen and(max-width: 768px){
+  .presentacion{
+    button {
+      display: none;
+    }
+  }
+}

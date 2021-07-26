@@ -1,0 +1,33 @@
+.videos__titulo{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: $large;
+}
+
+
+.videos__titulo-foto{
+  font-size: $medium;
+  font-weight: $bold;
+  padding-top: 3%;
+}
+
+.videos__subtitulo-foto{
+  font-size: $small;
+  font-weight: $regular;
+  color: $gray;
+}
+
+@media only screen and(max-width: 568px){
+
+  .videos__titulo{
+    text-align: center;
+  }
+
+  .videos__titulo-foto{
+    font-size: $large;
+  }
+
+  .videos__subtitulo-foto{
+    font-size: $medium;
+  }
+}
